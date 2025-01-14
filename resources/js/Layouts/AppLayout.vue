@@ -56,11 +56,10 @@ const logout = () => {
                                     Browse Services
                                 </NavLink>
 
-                                
-
-                                <NavLink :href="'#'">
+                                <NavLink :href="route('customer.contact-us')" :active="route().current('customer.contact-us')">
                                     Contact Support
                                 </NavLink>
+
 
                                 <NavLink :href="'#'">
                                     Privacy Policy

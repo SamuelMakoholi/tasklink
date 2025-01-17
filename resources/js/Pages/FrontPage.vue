@@ -21,7 +21,7 @@ const services = [
 
 <template>
     <div>
-        <HeaderComponent title="TaskLink"/>
+        <HeaderComponent  :canLogin="true" :canRegister="true" title="TaskLink"/>
 
         <!-- Hero Section -->
         <div class="hero py-12 flex items-center max-w-screen-lg mx-auto">
